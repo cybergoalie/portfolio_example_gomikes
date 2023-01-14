@@ -13,10 +13,13 @@
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 	
+	<!-- Font Awesome link to display icons; current font files corrupt, would deleting them help SEO? -->
+	<script src="https://kit.fontawesome.com/1bc66e7872.js" crossorigin="anonymous"></script>
+	
     
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
+	<script src="./js/jquery-2.1.0.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/blocs.js"></script>
 	<script src="./js/jqBootstrapValidation.js"></script>
 	<script src="./js/formHandler.js"></script>
     
@@ -33,36 +36,55 @@
 		 gtag('config', 'G-ZYQ7HEMXDT');
  	</script>
 <!-- Analytics END -->
-    
+
 </head>
 <body>
 <!-- Main container -->
 <div class="page-container">
     
-<!-- bloc-0 -->
-<div class="bloc bgc-white l-bloc " id="bloc-0">
+<!-- Header Begins -->
+<section class="bloc bgc-white"> 
 	<div class="container bloc-sm">
-		<nav class="navbar row">
+		<nav class="navbar row" aria-label="primary navigation">
+
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/atlanta%20web%20design%20logo.png"  height="40" /></a>
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-					<span>Toggle navigation</span>
+					
+				<a class="navbar-brand" href="index.html" aria-label="Learn more about designing your dream website">
+					<img src="img/atlanta%20web%20design%20logo.png" alt="Web design logo for Atlanta's best website design agency" height="40"/>
+				</a>
+				
+				<button id="nav-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-1" aria-label="Toggle navigation">
+					<label class="icon-bar">
+						<i class="fa fa-bars"></i>
+					</label>
 				</button>
-			</div>
-			<div class="collapse navbar-collapse navbar-1">
-				<ul class="site-navigation nav navbar-nav">
-					<li>
-						<a href="index.html">Home</a>
-					</li>
-					<li>
-						<a href="contact.html">Contact</a>
-					</li>
-				</ul>
+
+			
+				<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+					<ul class="site-navigation nav navbar-nav nav-ul">
+						<li class="nav-li">
+							<a href="index.html">Home</a>
+						</li> 
+						<li class="nav-li">
+							<a href="#">About</a>
+						</li>
+						<li class="nav-li">
+							<a href="#">Services</a>
+						</li>
+						<li class="nav-li">
+							<a href="#">Portfolio</a>
+						</li>
+						<li class="nav-li">
+							<a class="active" href="contact.html">Contact</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</nav>
 	</div>
-</div>
-<!-- bloc-0 END -->
+</section>
+
+<!-- Header-Nav Section Ends -->
 
 <!-- bloc-6 -->
 <div class="bloc bg-dots-bg bg-repeat bgc-dark-slate-blue d-bloc bloc-bg-texture texture-paper" id="bloc-6">
