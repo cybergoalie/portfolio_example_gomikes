@@ -88,6 +88,7 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
+    opacity: 0.3;
 }
 
 .texture-paper::before {
@@ -150,9 +151,14 @@ a:hover {
 
 
 .col-sm-12 {
-
+margin: 12px;
     /* FILL IN THE BLANKS, I HAVE A LOT OF CONTAINERS NAMED THIS SO SEE WHAT IT IS IF ITS USEFUL OR NO */
 
+}
+
+.img-responsive {
+    width: 580px;
+    object-fit: contain;
 }
 
 
@@ -962,12 +968,12 @@ h4 {
     background-image: url("img/lines-h2-bg.png");
 }
 
-.bg-atlanta-20made-20sign {
-    background-image: url("img/atlanta%20made%20sign.jpg");
+.bg-atlanta-made-sign {
+    background-image: url("img/atlanta-made-sign.jpg");
 }
 
-.bg-atlanta-20made-20sign-20orange {
-    background-image: url("img/atlanta%20made%20sign%20orange.jpg");
+.bg-atlanta-made-sign-orange {
+    background-image: url("img/atlanta-made-sign-orange.jpg");
 }
 
 /*Desktop Mark-up 1024px to 1366px */
@@ -1100,7 +1106,7 @@ margin: 0px 15px 0px 15px;
        
         left: -100%;
         width: 81%;
-        height: 100vh;
+        height: 88vh;
         display: block;
         margin-left: 5%;
         
@@ -1122,7 +1128,7 @@ margin: 0px 15px 0px 15px;
 
 
     .nav > li {
-        margin-top: 10px;
+       
         border-bottom: 1px solid rgba(0, 0, 0, .1);
         background: rgba(0, 0, 0, .05);
         text-align: center;
