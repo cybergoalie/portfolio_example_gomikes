@@ -81,6 +81,7 @@ a:hover {
 }
 
 .bloc-bg-texture::before {
+    pointer-events: none;
     content: "";
     background-size: 2px 2px;
     position: absolute;
@@ -127,9 +128,11 @@ a:hover {
     cursor: pointer;
    float: right;
    padding: 10px;
-
-
     
+}
+
+.nav > li:last-child a{
+    padding-right: 5px;
 }
 
 
@@ -147,13 +150,70 @@ a:hover {
     
 }
 
+.banner-img {
+ 
 
+}
+
+.avatar {
+    
+	width: 180px;
+	height: 180px;
+	box-sizing: border-box;
+	border: 1px transparent;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+	img { width: 100%; height: auto; };
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+.banner-box {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
 
 
 .col-sm-12 {
-margin: 12px;
-    /* FILL IN THE BLANKS, I HAVE A LOT OF CONTAINERS NAMED THIS SO SEE WHAT IT IS IF ITS USEFUL OR NO */
+margin: 24px;
+    
 
+}
+
+.col-sm-6 {
+    padding: 6px;
+    margin-bottom: 30px;
+    
+}
+
+.col-sm-4 li {
+    padding-bottom: 5px;
+}
+
+.col-sm-4 li:hover {
+    color: rgba(255, 255, 0, 0.288)
 }
 
 .img-responsive {
@@ -161,15 +221,19 @@ margin: 12px;
     object-fit: contain;
 }
 
-
-
-/* SAME GOES FOR */
-
-.text-center {
-   /* IT DOESN'T HAVE A CSS EQUIVALENT, BUT ITS USED MANY TIMES IN THE MARKUP... SEE IF I CAN MAKE A CENTERED-TEXT SHORTCUT, THAT'S PRETTY COOL! */
+.cta-row {
+    display: flex;
+    flex-flow: column wrap;
 }
 
-/* make adjustments to css for images changed into text to mimic the image look he had... */
+
+
+
+.text-center {
+    text-align: center;
+
+}
+
 
 .testimonial  {
     
@@ -195,6 +259,53 @@ footer a {
     text-decoration: none;
 }
 
+footer .div {
+    display: inline-block;
+}
+
+
+/* for contact.html */
+
+.contact-form {
+    max-width: 85%;
+}
+
+.form-group {
+    padding: 10px;
+
+}
+
+
+.form-control {
+    border-radius: 15px;
+    padding: 3px 10px;
+}
+
+#referral {
+    resize: none;
+   position: absolute;
+   border-width: 2px;
+}
+
+#message {
+    border-width: 2px;
+}
+
+.btn-lg {
+    border-radius: 28px;
+    border: 2.3px solid rgb(103, 99, 163);
+    
+}
+
+.reset {
+    border-radius: 28px;
+    border: 1px solid grey;
+}
+
+.contact-faq {
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
 
 /* what I've added.. end */
 
@@ -402,6 +513,7 @@ footer a {
 
 #bloc-2-services p {
     font-size: 14px;
+    margin: 5px 10px 12px 10px;
 }
 
 
@@ -422,7 +534,7 @@ footer a {
     font-weight: 600;
     line-height: 44px;
     text-decoration: none;
-    margin-left: 4%;
+    margin-left: 3.5%;
     
 }
 
@@ -593,8 +705,8 @@ nav .caret {
 }
 
 .mg-md {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin: 20px 5px 20px 5px;
+   
 }
 
 .mg-lg {
@@ -637,7 +749,7 @@ button {
 }
 
 .icon-lg {
-    font-size: 60px!important;
+    font-size: 41px!important;
 }
 
 .sm-shadow {
@@ -856,9 +968,14 @@ p {
     font-weight: 700;
 }
 
-.social {
-    max-width: 400px;
+.social-row {
+   
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 35px 0px;
 }
 
 h2 {
@@ -875,10 +992,33 @@ h3 {
 
 .med-width-whitespace {
     max-width: 80%;
-    margin: auto auto auto auto;
+    margin: auto;
     box-shadow: 0px 0px 0px #000000;
     margin-top: 50px;
+    display: flex;
+
+    flex-flow: column no-wrap;
+    
+
 }
+
+.med-width-whitespace article {
+    width: 33%;
+    margin: 18px;
+    padding: 3px;
+    border: 2px solid rgba(238, 185, 185, 0.815);
+    border-radius: 25px;
+}
+
+.med-width-whitespace article:hover {
+    background-color: rgba(255, 136, 0, 0.158);
+}
+
+.icon-box {
+    margin: 20px;
+}
+
+
 
 h1 {
     color: #333333!important;
@@ -889,8 +1029,8 @@ h4 {
 }
 
 .icons {
-    margin-bottom: 14px;
-    margin-top: 24px;
+    margin: 20px;4
+    padding: 10px;
 }
 
 .white {
@@ -898,7 +1038,7 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    margin-bottom: 5px;
 }
 
 .portfolio-row {
@@ -991,15 +1131,29 @@ h4 {
 
 /*Desktop Mark-up 1024px to 1366px */
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+   
     .site-navigation {
         right: 30px;
     }
 
     .nav > li {
-margin: 0px 20px 0px 20px;
+        margin: 0px 20px 0px 20px;
     }
+
 }
 
+@media (min-width: 1024px) {
+
+    .tight-width-whitespace {
+        max-width: 900px;
+}
+    
+
+    .img-responsive {
+        width: 880px;
+    }
+
+}
 
 /*Tablets Portrait Mode Max-width, anything up to 1024px*/
 @media (max-width: 1024px) {
@@ -1170,9 +1324,13 @@ margin: 0px 20px 0px 20px;
 
     }
 
+    .nav-li .active {
    
+    
+    }
 
     .nav > li::before {
+        pointer-events: none;
         content: "";
         background-image: url("img/texture-paper.png");
         background-size: cover;
@@ -1193,6 +1351,8 @@ margin: 0px 20px 0px 20px;
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
     }
+
+    
     .dropdown .dropdown a .caret {
         float: none;
         margin: 5px 0 0 10px!important;
@@ -1242,7 +1402,7 @@ margin: 0px 20px 0px 20px;
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
-        padding: 40px 0;
+        padding: 30px 0;
     }
     .bloc-sm,
     .bloc-md {
@@ -1292,7 +1452,32 @@ margin: 0px 20px 0px 20px;
     .bloc-mob-center-text {
         text-align: center;
     }
+
+    .tight-width-whitespace {
+        max-width: 450px;
+    }
+    
+    .img-responsive {
+        width: 440px;
+    }
+
+    .med-width-whitespace {
+        
+    
+        flex-flow: column;
+        align-items: center;
+        
+    
+    }
+    
+    .med-width-whitespace article {
+        width: 85%;
+        box-shadow: 1px 3px 10px #000000;
+        
+    }
+
 }
+
 
 
 /*Mobile phone max-width mark-up*/
@@ -1309,6 +1494,14 @@ margin: 0px 20px 0px 20px;
     .service-header h2 {
         font-size: .9em;
         margin: 0 8%;
+    }
+
+    .tight-width-whitespace {
+        max-width: 350px;
+    }
+    
+    .img-responsive {
+        width: 330px;
     }
 }
 
@@ -1337,5 +1530,13 @@ margin: 0px 20px 0px 20px;
 
     .site-navigation {
         margin-left: 3%;
+    }
+
+    .tight-width-whitespace {
+        max-width: 280px;
+    }
+    
+    .img-responsive {
+        width: 230px;
     }
 }
