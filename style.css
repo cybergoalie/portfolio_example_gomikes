@@ -275,7 +275,8 @@ margin-bottom: 30px;
 }
 
 .form-group {
-    padding: 10px;
+    padding: 5px;
+    margin-bottom: 3px;
 
 }
 
@@ -283,6 +284,7 @@ margin-bottom: 30px;
 .form-control {
     border-radius: 15px;
     padding: 3px 10px;
+    margin-top: 5px;
 }
 
 #referral {
@@ -1353,6 +1355,7 @@ h4 {
 
     .aboutme-textbox h2 {
     margin: 0 3%;
+    font-size: 22px;
     } 
     .aboutme-textbox p {
         margin: 0 3%;
@@ -1365,6 +1368,7 @@ h4 {
 
     .portfolio-header h2 {
         margin: 0px 5% 10px 5%;
+        font-size: 22px;
     }
 
     .portfolio-card h3 {
@@ -1413,7 +1417,7 @@ h4 {
     }
 
     .service-header h2 {
-        font-size: .9em;
+        font-size: 1.3em;
         margin: 0 2%;
     }
 
@@ -1423,8 +1427,8 @@ h4 {
         text-align: center;
         height: 63vh;
         display: block;
-        margin: 5% 11%;
-        margin-right: 8%;
+        margin: 5% 8% 5% 11%;
+        
         
         
     
@@ -1489,7 +1493,7 @@ h4 {
     }
 
     .texture-paper::before {
-        opacity: 0.8;
+        opacity: 0.6;
     }
 
 
@@ -1575,8 +1579,8 @@ h4 {
         margin-left: 3%;
     }
     .navbar-brand img {
-        max-height: 40px;
-        width: auto;
+      
+        width: 100%;
     }
 
     .navbar-header {
@@ -1650,7 +1654,7 @@ h4 {
 
     .tight-width-whitespace {
         
-    
+        margin: 0 1%;
 
     }
     
@@ -1667,8 +1671,7 @@ h4 {
     
     .med-width-whitespace article {
         width: 88%;
-        margin: 5%;
-        margin-top: 8%;
+        margin: 5.3%;
         box-shadow: 1px 3px 10px #000000;
         
     }
