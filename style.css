@@ -105,7 +105,7 @@ a:hover {
 /* what I added... start */
 
 .navbar-header {
-
+    
     line-height: 80px;
     margin:  20px;
 
@@ -266,6 +266,10 @@ margin-bottom: 30px;
 
 /* for contact.html */
 
+.contact-row .col-sm-6 {
+    padding-left: 30px;
+}
+
 .contact-form {
     max-width: 85%;
 }
@@ -283,12 +287,12 @@ margin-bottom: 30px;
 
 #referral {
     resize: none;
-   position: absolute;
-   border-width: 2px;
+   height: 36px;
+   border-width: 1px;
 }
 
 #message {
-    border-width: 2px;
+    border-width: 1px;
 }
 
 .btn-lg {
@@ -300,6 +304,7 @@ margin-bottom: 30px;
 .reset {
     border-radius: 28px;
     border: 1px solid grey;
+    margin-top: 10px;
 }
 
 .contact-faq {
@@ -531,6 +536,7 @@ margin-bottom: 30px;
 
 
 .navbar {
+    height: 120px;
     margin-bottom: 0;
     z-index: 1;
 }
@@ -985,7 +991,7 @@ p {
 }
 
 .cta-hero {
-    margin-top: 22px;
+    margin: 3px 3px;
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
@@ -1351,8 +1357,8 @@ h4 {
     }
 
     .icon-md {
-        height: 30px;
-        width: 30px;
+        height: 25px;
+        width: 25px;
     }
 
 
@@ -1430,6 +1436,11 @@ h4 {
         
         padding: 1px 1px 1px 5px;
     }
+
+    .navbar {
+        line-height: 90px;
+        height: auto;
+    }
     .navbar.row {
         margin-left: 0;
         margin-right: 0;
@@ -1485,7 +1496,7 @@ h4 {
     }
 
     .nav li a {
-        padding-top: 20px;
+        padding-top: 15px;
     }
 
     .nav li:first-child {
@@ -1769,6 +1780,11 @@ h4 {
 }
 /*Mobile phone max-width mark-up*/
 @media (max-width: 480px) {
+
+    .icon-md {
+        height: 20px;
+        width: 20px;
+    }
 
     .snapshot-lb .lightbox-caption {
         padding-top: 10px;
