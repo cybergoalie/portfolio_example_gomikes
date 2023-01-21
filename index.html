@@ -7,20 +7,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     
 	<link rel="icon" type="image/png" href="favicon.jpg">
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
+	<link rel="stylesheet" type="text/css" href="./css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="./css/et-line.css"/>
+	<link rel="stylesheet" type="text/css" href="./css/lightbox.min.css"/>
+
 
 	<!-- Font Awesome link to display icons -->
 	<script src="https://kit.fontawesome.com/1bc66e7872.js" crossorigin="anonymous"></script>
 	
+	<!-- Minified Scripts, where possible -->
+	<script defer
+  		src="https://code.jquery.com/jquery-2.1.0.min.js"
+  		integrity="sha256-8oQ1OnzE2X9v4gpRVRMb1DWHoPHJilbur1LP9ykQ9H0="
+  		crossorigin="anonymous">
+	</script>
+	<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+	<script defer src="./js/blocs.js"></script>
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.19/jquery.touchSwipe.min.js" integrity="sha512-YYiD5ZhmJ0GCdJvx6Xe6HzHqHvMpJEPomXwPbsgcpMFPW+mQEeVBU6l9n+2Y+naq+CLbujk91vHyN18q6/RSYw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha512-gauu0VKZq9ry8hOZHgNpcB2ogbSDojs+XLDItpOLY0IyA+KigeuT/suwSdPgfU/TGYLAn4Nan4OeaCa/UPr70Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 	
-	<script src="./js/jquery-2.1.0.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/blocs.js"></script>
-	<script src="./js/jquery.touchSwipe.js"></script>
-	<script src="./js/gmaps.js"></script>
+
 
     <title>GoMike's Designs is Atlanta's premiere web design agency.</title>
     
@@ -56,6 +65,8 @@
 						<i class="fa fa-bars"></i>
 					</label>
 				</button>
+				
+				<br>
 
 				<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 					<ul class="site-navigation nav navbar-nav nav-ul">
@@ -115,9 +126,9 @@
 				<h2>I create websites and design graphics that help Atlanta companies become attractive and recognizable online.</h2>
 			</header>
 		</div>
-		<div class="row voffset-lg med-width-whitespace">
+		<div class="row voffset-lg med-width-whitespace service-row">
 
-			<article class="col-sm-4">
+			<article class="col-sm-4 service-box">
 				<div class="text-center icon-box">
 					<span class="et-icon-browser sm-shadow icon-dark-slate-blue icons icon-lg"><i class="fa-brands fa-chrome"></i></span>
 				</div>
@@ -129,7 +140,7 @@
 				</p>
 			</article>
 		
-			<article class="col-sm-4">
+			<article class="col-sm-4 service-box">
 				<div class="text-center icon-box">
 					<span class="et-icon-presentation sm-shadow icon-dark-slate-blue icons icon-lg"><i class="fa-solid fa-magnifying-glass-chart"></i></span>
 				</div>
@@ -141,7 +152,7 @@
 				</p>
 			</article>
 			
-			<article class="col-sm-4">
+			<article class="col-sm-4 service-box">
 				<div class="text-center icon-box">
 					<span class="et-icon-edit sm-shadow icon-dark-slate-blue icons icon-lg"><i class="fa-solid fa-wand-magic-sparkles"></i></span>
 				</div>
@@ -166,15 +177,15 @@
 <!-- Services Section ENDS -->
 
 <!-- Meet Me Section Begins (A D BLOCK) -->
-<div class="bloc tc-white bgc-atomic-tangerine bloc-bg-texture texture-paper bg-atlanta-made-sign-orange d-bloc" id="bloc-3-what-i-do">
-	<div class="container bloc-lg">
+<div class="bloc tc-white bgc-atomic-tangerine bloc-bg-texture texture-paper b-parallax bg-atlanta-made-sign-orange d-bloc" id="bloc-3-what-i-do">
+	<div class="container bloc-lg aboutme-box">
 		<div class="row tight-width-whitespace black-background">
-			<div class="col-sm-12">
+			<div class="col-sm-12 aboutme-textbox">
 				<h2 class="mg-md text-center tc-white">
-					I love Atlanta, my hometown, and want to see all Atlanta businesses succeed. I help by offering web design services that help local businesses stand out and attract new customers online.<br>
-				</h2>
+					I love Atlanta, my hometown, and want to see all Atlanta businesses succeed. I help by offering web design services that make local businesses stand out and attract new customers online.<br>
+				</h2><br>
 				<p class="text-center white">
-					I'm super excited you&rsquo;re here. I partner with creative entrepreneurs and local Atlanta businesses that are either starting or needing to renew their website to attract business. Whether you need a complete brand identity or a redesign of your website, I&rsquo;ll work with you to create something that looks great and is structured to be found on Google.<br><br>
+					I'm super excited you&rsquo;re here. <br>I partner with creative entrepreneurs and local Atlanta businesses that are either starting or needing to renew their website to attract business. Whether you need a complete brand identity or a redesign of your website, I&rsquo;ll work with you to create something that looks great and is structured to be found on Google.<br><br>
 					<a class="ltc-white bold-link" href="contact.html">Are you ready, contact me</a><br>
 				</p>
 			</div>
@@ -187,13 +198,13 @@
 <div class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio">
 	<div class="container bloc-lg">
 		<div class="row">
-			<div class="col-sm-12 text-center">
+			<div class="col-sm-12 text-center portfolio-header">
 				<h2> Websites I've designed and developed for Atlanta companies that resulted in more local business:</h2>
 			</div>
 		</div>
 		<div class="row tight-width-whitespace portfolio-row">
-			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/11.jpg" data-gallery-id="gallery-1" data-caption="Website for Atlanta's Premiere dog salon" data-frame="snapshot-lb"><img src="img/11.jpg" class="img-responsive portfolio-thumb" alt="graphic, web design company, graphic artist, digital designer, creative designer, website for dog salon"/></a>
+			<div class="col-sm-6 portfolio-card">
+				<a href="#" data-lightbox="img/11.jpg" data-gallery-id="gallery-1" data-caption="Website for Atlanta's Premiere dog salon" data-frame="snapshot-lb"><img src="img/11.jpg" class="img-responsive portfolio-thumb" alt="Graphic, web design company creates website for dog salon"/></a>
 				<h3 class="mg-md text-center">
 					Website for Atlanta&rsquo;s premiere Dog Sitters
 				</h3>
@@ -201,8 +212,8 @@
 					I love dogs and was super excited to make a website for an Atlanta dog company.
 				</p>
 			</div>
-			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/2.jpg" data-gallery-id="gallery-1" data-caption="Web redesign for the best cupcakes in Atlanta" data-frame="snapshot-lb"><img src="img/2.jpg" class="img-responsive portfolio-thumb" alt="graphic, web design company, graphic artist, digital designer, creative designer for best cupcakes in atlanta"/></a>
+			<div class="col-sm-6 portfolio-card">
+				<a href="#" data-lightbox="img/2.jpg" data-gallery-id="gallery-1" data-caption="Web redesign for the best cupcakes in Atlanta" data-frame="snapshot-lb"><img src="img/2.jpg" class="img-responsive portfolio-thumb" alt="Creative, graphic, digital designer for best cupcakes in atlanta"/></a>
 				<h3 class="mg-md text-center">
 					Web redesign for the best Atlanta&nbsp;cupcakes
 				</h3>
@@ -212,8 +223,8 @@
 			</div>
 		</div>
 		<div class="row tight-width-whitespace portfolio-row">
-			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/3.bmp" data-gallery-id="gallery-1" data-caption="New logo and website for Atlanta's best tech gear shop" data-frame="snapshot-lb"><img src="img/3.bmp" class="img-responsive portfolio-thumb" alt="graphic, web design company, graphic artist, digital designer, creative designer, website and logo design for best tech gear shop"/></a>
+			<div class="col-sm-6 portfolio-card">
+				<a href="#" data-lightbox="img/3.bmp" data-gallery-id="gallery-1" data-caption="New logo and website for Atlanta's best tech gear shop" data-frame="snapshot-lb"><img src="img/3.bmp" class="img-responsive portfolio-thumb" alt="Graphic, website and logo design for best tech gear shop"/></a>
 				<h3 class="mg-md text-center">
 					New logo and website for Atl + Gear - Atlanta&rsquo;s best tech gear shop
 				</h3>
@@ -221,8 +232,8 @@
 					Whenever I&rsquo;m wanting to improve my web design skills, this shop inspires me.
 				</p>
 			</div>
-			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/4.bmp" data-gallery-id="gallery-1" data-caption="Atlanta's legal website generates 30% more clients after web redesign" data-frame="snapshot-lb"><img src="img/4.bmp" class="img-responsive portfolio-thumb" alt="seo, google, website, internet, web design, Atlanta's legal website generates 30% more clients after web redesign"/></a>
+			<div class="col-sm-6 portfolio-card">
+				<a href="#" data-lightbox="img/4.bmp" data-gallery-id="gallery-1" data-caption="Atlanta's legal website generates 30% more clients after web redesign" data-frame="snapshot-lb"><img src="img/4.bmp" class="img-responsive portfolio-thumb" alt="Atlanta's legal website generates 30% more clients after web redesign"/></a>
 				<h3 class="mg-md text-center">
 					Atlanta&rsquo;s legal new website - Generating 30% more law clients with a refresh&nbsp;
 				</h3>
@@ -250,34 +261,33 @@
 </div>
 <!-- CTA Section ENDS -->
 
-<!-- Footer Section Begins (Also a D Block)-->
+<!-- FOOTER Section Begins (Also a D Block)-->
 <footer class="bloc bgc-dark-slate-blue d-bloc" id="bloc-8">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
 				<p class="text-center white">
 					GoMike Designs - Web designer, living and loving in Atlanta.<br>
-					I can make your dream website a reality.<br> 
-					Dreams do come true, with GoMike Designs!
+					I can make your dream website a reality!<br> 
 				</p>
 				<div class="row row-no-gutters social-row">
-					<div class="col-sm-3">
-						<div class="text-center">
+					<div class="col-sm-3 social-box">
+						<div class="text-center icon-box">
 							<a class="social-icon" href="#"><span class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
+					<div class="col-sm-3 social-box">
+						<div class="text-center icon-box">
 							<a class="social-icon" href="#"><span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
+					<div class="col-sm-3 social-box">
+						<div class="text-center icon-box">
 							<a class="social-icon" href="#"><span class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
+					<div class="col-sm-3 social-box">
+						<div class="text-center icon-box">
 							<a class="social-icon" href="#"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
@@ -285,22 +295,22 @@
 				
 
 				</div>
-					<div class="row">
-					<div class="col-sm-4">
+					<div class="affiliate-row">
+					<div class="col-sm-4 footer-col">
 						Partners
 							<ul>
 								<li><a href="car.com">car.com</a></li>
 								<li><a href="pizza.com">pizza.com</a></li>
 							</ul>		
 					</div>
-					<div class="col-sm-4">
+					<div class="col-sm-4 footer-col">
 						Directories 1
 						<ul>
 							<li><a href="agencydirectory.com">agencydirectory.com</a></li>
 							<li><a href="123seo.com">123seo.com</a></li>
 						</ul>
 					</div>
-					<div class="col-sm-4">
+					<div class="col-sm-4 footer-col">
 						Directories 2
 						<ul>
 							<li><a href="yesseo.com">yesseo.com</a></li>
@@ -311,7 +321,7 @@
 		</div>
 	</div>
 </footer>
-<!-- Footer Section ENDS -->
+<!-- FOOTER Section ENDS -->
 
 </div>
 <!-- Main container ENDS -->
