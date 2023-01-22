@@ -267,7 +267,7 @@ margin-bottom: 30px;
 /* for contact.html */
 
 .contact-row .col-sm-6 {
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
 .contact-form {
@@ -284,7 +284,7 @@ margin-bottom: 30px;
 .form-control {
     border-radius: 15px;
     padding: 3px 10px;
-    margin-top: 5px;
+    margin-top: 3px;
 }
 
 #referral {
@@ -1344,7 +1344,7 @@ h4 {
     }
 
     .mg-md {
-        margin: 0 10%;
+        margin: 20px 3%;
     }
 
     .aboutme-box {
@@ -1402,7 +1402,8 @@ h4 {
 
 
     .cta-row h2 {
-        margin-bottom: 20px;
+        
+        line-height: 41px;
     }
 
     #bloc-8 {
@@ -1427,10 +1428,7 @@ h4 {
         text-align: center;
         height: 63vh;
         display: block;
-        margin: 5% 8% 5% 11%;
-        
-        
-        
+        margin: 5% 8%;
     
     }
 
@@ -1510,8 +1508,9 @@ h4 {
         height: 18%;
         position: relative;
         transition: all .5s;
-        
-
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .nav-li .active {
@@ -1535,7 +1534,7 @@ h4 {
     }
 
     .nav li a {
-       padding-top: 23px;
+     
     }
 
     .nav li:first-child {
@@ -1654,7 +1653,7 @@ h4 {
 
     .tight-width-whitespace {
         
-        margin: 0 1%;
+        margin: 0px;
 
     }
     
@@ -1671,7 +1670,7 @@ h4 {
     
     .med-width-whitespace article {
         width: 88%;
-        margin: 5.3%;
+        margin: 10% 5.8%;
         box-shadow: 1px 3px 10px #000000;
         
     }
@@ -1717,7 +1716,7 @@ h4 {
     }
 
    .icon-box {
-    padding-top: 10px;
+    
    
     font-size: 22px;
    }
@@ -1941,7 +1940,7 @@ margin: 3px 10% 1px 10%;
     }
 
     .navbar-toggle .icon-bar {
-        padding-top: 13px;
+        padding-top: 10px;
     }
 
     .navbar-toggle {
@@ -1962,7 +1961,7 @@ margin: 3px 10% 1px 10%;
     }
 
     .social-row {
-        margin: 20px 0px;
+        margin: 30px 0px;
     }
     .navbar-header {
         margin: 20px 2px;
@@ -1995,14 +1994,14 @@ margin: 3px 10% 1px 10%;
     }
 
     .navbar-toggle .icon-bar {
-        font-size: 20px;
+        font-size: 24px;
         color: rgb(92, 92, 131);
         margin-right: 1%;
        
     }
 
     .site-navigation {
-        margin-left: 3.1%;
+        
     }
 
     .tight-width-whitespace {
