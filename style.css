@@ -18,7 +18,7 @@ a:hover {
     cursor: pointer;
 }
 
-#page-loading-blocs-notifaction {
+#page-loading-blocs-notification {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -144,11 +144,6 @@ header.service-header {
     
 }
 
-.banner-img {
- 
-
-}
-
 .avatar {
     
 	width: 180px;
@@ -160,7 +155,6 @@ header.service-header {
 	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
 	transform: translatey(0px);
 	animation: float 6s ease-in-out infinite;
-	
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1390,16 +1384,10 @@ h4 {
         opacity: .5;
     }
 
-    .icon-box {
-      
-    }
-
     .icon-md {
         height: 25px;
         width: 25px;
     }
-
-
 
     .cta-row h2 {
         
@@ -1439,10 +1427,6 @@ h4 {
         
     }
 
-    .social-box {
-    
-    }
-
     .navbar-toggle {
         display: inline-block;
     }
@@ -1451,6 +1435,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
+
     h1,
     h2,
     h3,
@@ -1513,11 +1498,6 @@ h4 {
         justify-content: center;
     }
 
-    .nav-li .active {
-   
-    
-    }
-
     .nav > li::before {
         pointer-events: none;
         content: "";
@@ -1531,10 +1511,6 @@ h4 {
         opacity: .5;
         border-radius: 31px;
 
-    }
-
-    .nav li a {
-     
     }
 
     .nav li:first-child {
@@ -1671,41 +1647,35 @@ h4 {
     .med-width-whitespace article {
         width: 88%;
         margin: 10% 5.8%;
-        box-shadow: 1px 3px 10px #000000;
-        
+        box-shadow: 1px 3px 10px #000000; 
     }
 
     .testimonial  {
         
         margin: 0px;
         width: 100%;
-    
     }
 
    .service-box {
-    height: 181px;
-    display: flex;
-    justify-content: space-around;
-    flex-flow: column nowrap;
-    border-radius: 35px;
-    border: 1px solid rgb(245, 203, 113);
-    transition: 1.5s all ease-in-out;
- font-weight: bold;
-   }
-
-    .service-box:hover .service-header {
-       
+        height: 181px;
+        display: flex;
+        justify-content: space-around;
+        flex-flow: column nowrap;
+        border-radius: 35px;
+        border: 1px solid rgb(245, 203, 113);
+        transition: 1.5s all ease-in-out;
+        font-weight: bold;
     }
-   
+
     .service-box:hover {
-    background-color: rgb(255 224 110 / 58%);
-    border: none;
-    -webkit-mask:linear-gradient(-60deg,#000 30%,#0005,#000 70%) right/300% 100%;
-    background-repeat: no-repeat;
-    animation: shimmer 5s infinite;
-    animation-delay: 1s;
-    transform: scale(1.05);
-   }
+        background-color: rgb(255 224 110 / 58%);
+        border: none;
+        -webkit-mask:linear-gradient(-60deg,#000 30%,#0005,#000 70%) right/300% 100%;
+        background-repeat: no-repeat;
+        animation: shimmer 5s infinite;
+        animation-delay: 1s;
+        transform: scale(1.05);
+    }
 
    
 
@@ -1716,15 +1686,13 @@ h4 {
     }
 
    .icon-box {
-    
-   
-    font-size: 22px;
-   }
+        font-size: 22px;
+    }
 
    #bloc-2-services {
-    display: flex;
-    flex-flow: column nowrap;
-   }
+        display: flex;
+        flex-flow: column nowrap;
+    }
 
    #bloc-2-services p {
         font-size: 12px;
@@ -1735,10 +1703,6 @@ h4 {
 
     footer a {
         color: #337ab7!important;
-    }
-
-    .portfolio-card a {
-       
     }
 
     .close-lightbox:hover,
@@ -1796,9 +1760,6 @@ h4 {
         color: white;
     }
 
-    .lightbox-image {
-
-    }
 
     #lightbox-modal .modal-dialog img {
         max-height: 81vh;
@@ -1808,14 +1769,13 @@ h4 {
     .snapshot-lb .lightbox-caption {
         margin-top: 20px;
         text-align: center;
-
         color: rgba(0, 0, 0, .5);
         background: none;
     }
 
-
 }
-/*Mobile phone max-width mark-up*/
+
+/* Mobile phone Landscape View Mark-up */
 @media (max-width: 480px) {
 
     .icon-md {
@@ -1862,7 +1822,7 @@ h4 {
         opacity: 0.7;
     }
 
-//adjust the above ones and then again for 380.. then check contact page, and commit!//
+
     .service-header {
         margin: 0 3%;
     }
@@ -1907,7 +1867,7 @@ h4 {
     }
 
     .service-box h3 {
-margin: 3px 10% 1px 10%;
+        margin: 3px 10% 1px 10%;
     }
 
     .social-box {
@@ -2000,40 +1960,32 @@ margin: 3px 10% 1px 10%;
        
     }
 
-    .site-navigation {
-        
-    }
-
-    .tight-width-whitespace {
-       ;
-    }
 
     .service-box {
         height: 203px;
     }
 
     .service-box h3 {
-font-size: 18px;
-
-    margin: 5px 10% 1px 10%;
-        }
+        font-size: 18px;
+        margin: 5px 10% 1px 10%;
     }
 
+
     .service-box p {
-font-size: 11px;
+        font-size: 11px;
     }
 
     .portfolio-card h3 {
-font-size: 10px;
-padding: 5px!important;
+        font-size: 10px;
+        padding: 5px!important;
     }
 
     .portfolio-card p {
-font-size: 9px;
-padding: 3px!important;
+        font-size: 9px;
+        padding: 3px!important;
     }
 
     .social-icon {
         padding: 5px;
-    
+    }
 }
