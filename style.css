@@ -279,6 +279,7 @@ margin-bottom: 30px;
     border-radius: 15px;
     padding: 3px 10px;
     margin-top: 3px;
+    width: auto;
 }
 
 #referral {
@@ -295,6 +296,10 @@ margin-bottom: 30px;
     border-radius: 28px;
     border: 2.3px solid rgb(103, 99, 163);
     overflow: hidden;
+}
+
+.submit-btn {
+    width: auto;
 }
 
 .reset {
