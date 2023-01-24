@@ -1186,11 +1186,12 @@ h4 {
 }
 
 .bg-atlanta-made-sign {
-    background-image: url("img/atlanta-made-sign.jpg");
+    background-image: url("img/atlanta-made-sign.webp");
+    object-fit: cover;
 }
 
 .bg-atlanta-made-sign-orange {
-    background-image: url("img/atlanta-made-sign-orange.jpg");
+    background-image: url("img/atlanta-made-sign-orange.webp");
 }
 }
 
@@ -1334,16 +1335,12 @@ h4 {
        
     }
 
-    .service-header {
-        margin: 0 13%;
-    }
-
     .tc-white {
         color: #7865a7;
     }
 
     .mg-md {
-        margin: 20px 3%;
+        margin: 0px;
     }
 
     .aboutme-box {
@@ -1692,6 +1689,7 @@ h4 {
 
    .icon-box {
         font-size: 22px;
+        margin-top: 15px;
     }
 
    #bloc-2-services {
