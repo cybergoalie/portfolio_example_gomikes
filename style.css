@@ -42,10 +42,18 @@ a:hover {
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
+    
 }
+
 
 .bloc-lg {
     padding: 80px 50px;
+    padding: 80px 50px;
+    width: 90%!important;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
 }
 
 .bloc-md {
@@ -53,7 +61,8 @@ a:hover {
 }
 
 .bloc-sm {
-    padding: 20px 50px;
+    padding: 10px 50px;
+    width: 100%!important;
 }
 
 .bg-center,
@@ -116,7 +125,7 @@ a:hover {
     background-color: white;
     cursor: pointer;
    float: right;
-   padding: 10px;
+   padding: 10px!important;
     
 }
 
@@ -133,7 +142,14 @@ header.service-header {
 }
 
 .service-row {
-    margin: 0;
+   
+    margin: 1px!important;
+    display: flex!important;
+    justify-content: space-around;
+    max-width: 100%;
+    padding-top: 30px;
+    
+    
 }
 
 
@@ -242,7 +258,7 @@ footer .div {
 
 .footer-col {
     margin-left: 20px;
-    width: 30%;
+    
 }
 
 .footer-col ul {
@@ -250,8 +266,10 @@ footer .div {
 }
 
 .affiliate-row {
-    margin-top: 10px;
-    margin-bottom: 30px;
+    padding-top: 21px;
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .affiliate-row ul {
@@ -321,7 +339,7 @@ margin-bottom: 30px;
 }
 
 .portfolio-card {
-    width: 33%;
+    width: 41%!important;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -516,7 +534,7 @@ margin-bottom: 30px;
 }
 
 .voffset-lg {
-    margin-top: 80px;
+    margin-top: 41px;
 }
 
 .row-no-gutters {
@@ -538,7 +556,7 @@ margin-bottom: 30px;
 
 .navbar {
     height: 120px;
-    margin-bottom: 0;
+    margin-bottom: 0!important;
     z-index: 1;
 }
 
@@ -606,11 +624,12 @@ margin-bottom: 30px;
 .nav > li a {
     font-weight: 700;
     color: rgb(92, 92, 131)!important;
+    padding: 10px 10px!important;
 }
 
 .navbar-toggle {
-    margin-top: 0px;
-    margin-right: 3%;
+    margin-top: -4.1px!important;
+    margin-right: 3%!important;
     border: 0px;
     display: none;
     color: rgb(92, 92, 131);
@@ -855,13 +874,13 @@ margin-bottom: 30px;
     }
 
     #lightbox-modal .modal-dialog {
-        width: 90%;
-        max-width: 900px;
+        width: 85%;
+        
         margin: 0 auto 0;
     }
 
     #lightbox-modal .modal-dialog img {
-        max-height: 88vh;
+        height: 88vh;
         margin: 0 auto;
     }
 
@@ -929,6 +948,7 @@ margin-bottom: 30px;
   
     .snapshot-lb .modal-body {
         padding-bottom: 45px;
+        
     }
 
     .snapshot-lb .lightbox-caption {
@@ -939,102 +959,107 @@ margin-bottom: 30px;
 
 
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-label,
-.btn,
-a {
-    font-family: "helvetica";
-    font-weight: 400;
-    color: #575757!important;
-}
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    label,
+    .btn,
+    a {
+        font-family: "helvetica";
+        font-weight: 400;
+        color: #575757!important;
+    }
 
-.container {
-    max-width: 100%;
-}
+    .container {
+        max-width: 100%;    
+    }
 
-.hero-bloc-text {
-    font-size: 38px;
-}
+    .hero-bloc-text {
+        font-size: 38px;
+    }
 
-.hero-bloc-text-sub {
-    font-size: 36px;
-}
+    .hero-bloc-text-sub {
+        font-size: 36px;
+    }
 
-.statement-bloc-text {
-    line-height: 26px;
-    font-style: italic;
-    font-size: 20px;
-    text-align: center;
-    font-weight: lighter;
-    max-width: 520px;
-    margin: auto auto auto auto;
-}
+    .statement-bloc-text {
+        line-height: 26px;
+        font-style: italic;
+        font-size: 20px;
+        text-align: center;
+        font-weight: lighter;
+        max-width: 520px;
+        margin: auto auto auto auto;
+    }
 
-p {
-    font-size: 12px;
-}
+    p {
+        font-size: 12px;
+    }
 
-.tight-width-whitespace {
+    .tight-width-whitespace {
     
-    margin: auto auto auto auto;
+        margin: auto auto auto auto;
     
-}
+    }
 
-.h1 {
-    font-size: 20px;
-    font-family: "Open Sans";
-}
+    .h1 {
+        font-size: 20px;
+        font-family: "Open Sans";
+    }
 
-.cta-hero {
-    margin: 3px 3px;
-    color: #FFFFFF!important;
-    text-transform: uppercase;
-    padding: 12px 28px 12px 28px;
-    font-size: 1.0em;
-    font-weight: 700;
-}
+    .cta-hero {
+        margin: 3px 3px;
+        color: #FFFFFF!important;
+        text-transform: uppercase;
+        padding: 12px 28px 12px 28px;
+        font-size: 1.0em;
+        font-weight: 700;
+    }
 
-.social-row {
+    .social-row {
    
-    
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        margin: 55px 0px;
+    }
+
+    h2 {
+        font-size: 22px;
+        line-height: 1.4em;
+    }
+
+    h3 {
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #333333!important;
+    }
+
+    .med-width-whitespace {
+        max-width: 85%;
+        margin: auto!important;
+        box-shadow: 0px 0px 0px #000000;
+
+    }
+
+    .service-row {
+        margin: 30px 10px;
+        display: flex!important;
+        justify-content: space-around;
+        max-width: 100%;
+        padding-top: 30px;
+    }
+
+.service-box {
     display: flex;
+    flex-flow: column;
     justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    margin: 55px 0px;
-}
-
-h2 {
-    font-size: 22px;
-    line-height: 1.4em;
-}
-
-h3 {
-    font-size: 15px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #333333!important;
-}
-
-.med-width-whitespace {
-    max-width: 85%;
-    margin: auto;
-    box-shadow: 0px 0px 0px #000000;
-
-}
-
-.service-row {
-    margin: 30px 10px;
-    display: flex;
-    justify-content: space-around;
-    max-width: 100%;
-
 }
 
 .med-width-whitespace article {
@@ -1075,7 +1100,7 @@ h3 {
 }
 
 .portfolio-card p {
-    max-width: 88%;
+    max-width: 65%;
     font-size: 12px;
 }   
 
@@ -1101,11 +1126,15 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 5px;
+    height: 250px!important;
+    width: auto;
 }
 
 .portfolio-row {
     margin-bottom: 7px;
-    margin-top: 41px;
+    margin-top: 49px;
+    margin-left: auto!important;
+    margin-right: auto!important;
 }
 
 .avatar {
@@ -1280,7 +1309,7 @@ h4 {
     }
 
     .nav > li {
-        margin: 0px 15px 0px 15px;
+        margin: 0px 10px 0px 10px;
     }
 
 
@@ -1300,6 +1329,28 @@ h4 {
 
 /*Tablet Small size markup, up to 767px */
 @media (max-width: 767px) {
+
+    .voffset-lg {
+        margin-top: 69px;
+    }
+
+    .portfolio-thumb {
+        margin-bottom: 5px;
+        height: 165px!important;
+        width: auto;
+    }
+
+    .portfolio-card p {
+        max-width: 100%;
+        font-size: 12px;
+    
+    }
+
+    
+    .footer-col {
+        margin-left: 3px;
+    
+    }
 
     
 
@@ -1341,6 +1392,7 @@ h4 {
 
     .mg-md {
         margin: 0px;
+        padding: 3px 1px!important;
     }
 
     .aboutme-box {
@@ -1350,9 +1402,10 @@ h4 {
     }
 
     .aboutme-textbox h2 {
-    margin: 0 3%;
-    font-size: 22px;
+        margin: 0 3%;
+        font-size: 22px;
     } 
+    
     .aboutme-textbox p {
         margin: 0 3%;
         font-weight: bold;
@@ -1362,8 +1415,13 @@ h4 {
      color: #337ab7;
     }
 
+    .portfolio-card {
+        width: 45%;
+        margin-bottom: 3px;
+    }
+
     .portfolio-header h2 {
-        margin: 0px 5% 10px 5%;
+        margin: 10px 5% 10px 5%;
         font-size: 22px;
     }
 
@@ -1371,6 +1429,7 @@ h4 {
         font-size: 13px;
         margin: 5px;
         font-weight: bold;
+        
     }
 
     .social-box {
@@ -1416,7 +1475,7 @@ h4 {
         position: fixed;
         left: -100%;
         text-align: center;
-        height: 63vh;
+        height: 69vh;
         display: block;
         margin: 5% 8%;
     
@@ -1452,8 +1511,13 @@ h4 {
 
     .navbar .nav {
         
-      padding: 1px;  
+        padding: 1px;  
+        margin: 30px 3% 20px 3%;
         float: none!important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     
     .navbar-brand {
@@ -1495,7 +1559,7 @@ h4 {
         height: 18%;
         position: relative;
         transition: all .5s;
-        display: flex;
+        display: flex!important;
         align-items: center;
         justify-content: center;
     }
@@ -1554,6 +1618,7 @@ h4 {
     }
     .navbar-brand {
         margin-left: 3%;
+        padding: 3px!important;
     }
     .navbar-brand img {
       
@@ -1634,6 +1699,10 @@ h4 {
         margin: 0px;
 
     }
+
+    .portfolio-row {
+        margin-top: 30px;
+    }
     
   
 
@@ -1648,14 +1717,22 @@ h4 {
     
     .med-width-whitespace article {
         width: 81%;
-        margin: 10px 5.8% 30px 9.6%;
+        margin: 18px 15px;
+        padding: 1px 5px!important;
         box-shadow: 1px 3px 10px #000000; 
     }
 
     .testimonial  {
         
-        margin: 0px;
-        width: 100%;
+        align-items: center;
+    }
+
+    .testimonial p {
+        width: 85%!important;
+    }
+
+    .testimonial h4 {
+        width: 90%!important;
     }
 
    .service-box {
@@ -1765,7 +1842,7 @@ h4 {
 
 
     #lightbox-modal .modal-dialog img {
-        max-height: 81vh;
+        height: auto;
         margin: 0 auto;
     }
 
@@ -1780,6 +1857,20 @@ h4 {
 
 /* Mobile phone Landscape View Mark-up */
 @media (max-width: 480px) {
+
+    .portfolio-thumb {
+        
+        height: 100px!important;
+    }
+
+    .navbar .nav {
+        padding: 1px;
+        margin: 38px 1px 10px .3%;
+    }
+
+    .affiliate-row {
+        flex-flow: column wrap;
+    }
 
     .icon-md {
         height: 20px;
@@ -1856,9 +1947,6 @@ h4 {
         font-size: 14px;
     }
 
-    .portfolio-card {
-        width: 38%;
-    }
 
     .portfolio-card h3 {
         font-size: 13px;
@@ -1866,7 +1954,7 @@ h4 {
 
     .portfolio-card p {
         font-size: 12px;
-        width: 96%;
+        padding: 1px 3px!important;
     }
 
     .service-box h3 {
@@ -1903,11 +1991,12 @@ h4 {
     }
 
     .navbar-toggle .icon-bar {
-        padding-top: 10px;
+        padding-top: 5px;
     }
 
     .navbar-toggle {
         padding: 5px;
+        margin-right: 1px!important;
         
     }
 
@@ -1940,7 +2029,7 @@ h4 {
 
     
     .navbar-brand {
-        padding: 3px;
+        padding: 3px!important;
         margin-left: 2%;
         max-width: 69%;
         
@@ -1965,12 +2054,12 @@ h4 {
 
 
     .service-box {
-        height: 203px;
+        height: 223px;
     }
 
     .service-box h3 {
         font-size: 18px;
-        margin: 5px 10% 1px 10%;
+        margin: 1px 10% 1px 10%;
     }
 
 
@@ -1980,7 +2069,8 @@ h4 {
 
     .portfolio-card h3 {
         font-size: 10px;
-        padding: 5px!important;
+        padding: 3px 1px!important;
+        margin: 0px;
     }
 
     .portfolio-card p {
@@ -1990,5 +2080,14 @@ h4 {
 
     .social-icon {
         padding: 5px;
+    }
+
+    .portfolio-thumb {
+        height: 65px!important;
+    }
+
+    .cta-row h2 {
+        font-size: 20px;
+        margin: 0px 10px;
     }
 }
