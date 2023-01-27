@@ -104,7 +104,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -159,6 +159,7 @@ header.service-header {
     font-size: 1.6em;
     margin: 2%;
     text-align: center;
+    font-weight: bold;
     
 }
 
@@ -1396,6 +1397,7 @@ h4 {
     .mg-md {
         margin: 0px;
         padding: 3px 1px!important;
+        color: #402738;
     }
 
     .aboutme-box {
@@ -1570,7 +1572,7 @@ h4 {
     .nav > li::before {
         pointer-events: none;
         content: "";
-        background-image: url("img/texture-paper.png");
+        background-image: url("img/texture-paper.webp");
         background-size: cover;
         position: absolute;
         top: 0px;
@@ -1736,6 +1738,7 @@ h4 {
 
     .testimonial h4 {
         width: 90%!important;
+        color: #402738;
     }
 
    .service-box {
@@ -1782,6 +1785,7 @@ h4 {
         font-weight: bold;
         margin: 3%;
         width: auto;
+        color: #402738;
     }
 
     footer a {
