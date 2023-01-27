@@ -43,7 +43,9 @@ a:hover {
     padding-left: 0;
     padding-right: 0;
     
+    
 }
+
 
 
 .bloc-lg {
@@ -1217,6 +1219,7 @@ h4 {
 .bg-atlanta-made-sign {
     background-image: url("img/atlanta-made-sign.jpg");
     object-fit: cover;
+
 }
 
 .bg-atlanta-made-sign-orange {
