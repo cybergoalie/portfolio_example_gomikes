@@ -1218,13 +1218,13 @@ h4 {
 }
 
 .bg-atlanta-made-sign {
-    background-image: url("img/atlanta-made-sign.jpg");
+    background-image: url("img/atlanta-made-sign.webp");
     object-fit: cover;
 
 }
 
 .bg-atlanta-made-sign-orange {
-    background-image: url("img/atlanta-made-sign-orange.jpg");
+    background-image: url("img/atlanta-made-sign-orange.webp");
 }
 }
 
